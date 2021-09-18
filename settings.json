@@ -1,7 +1,6 @@
 {
-  "window.zoomLevel": 1.6,
-  "editor.fontSize": 16,
-  "workbench.colorTheme": "Night Owl (No Italics)",
+  "window.zoomLevel": 1.5,
+  "editor.fontSize": 17,
   "editor.tabSize": 2,
   "editor.cursorBlinking": "solid",
   "editor.glyphMargin": false,
@@ -15,8 +14,10 @@
   "editor.snippetSuggestions": "bottom",
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
-  "explorer.openEditors.visible": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "none",
   "workbench.editor.tabSizing": "shrink",
@@ -28,5 +29,23 @@
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "json.schemas": [],
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell Custom": {
+      "source": "PowerShell",
+      "args": ["-nologo"]
+    }
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  "terminal.integrated.fontFamily": "'Cascadia Code'",
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "explorer.compactFolders": false
 }
+
