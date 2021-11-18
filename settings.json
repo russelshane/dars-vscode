@@ -1,6 +1,6 @@
 {
-  "window.zoomLevel": 1.5,
-  "editor.fontSize": 17,
+  "window.zoomLevel": 1.45,
+  "editor.fontSize": 15.5,
   "editor.tabSize": 2,
   "editor.cursorBlinking": "solid",
   "editor.glyphMargin": false,
@@ -40,12 +40,26 @@
     "**/.git/objects/**": true,
     "**/node_modules/**": true
   },
-  "terminal.integrated.fontFamily": "'Cascadia Code'",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove NF'",
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifier": "relative",
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.inlineSuggest.enabled": true,
+  "prettier.endOfLine": "auto",
+  "workbench.colorTheme": "Field Lights",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "telemetry.telemetryLevel": "off",
+  "vim.showmodename": false,
+  "vim.statusBarColorControl": false,
+  "workbench.iconTheme": "field-lights"
 }
-
