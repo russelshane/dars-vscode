@@ -1,6 +1,6 @@
 {
-  "window.zoomLevel": 1.45,
-  "editor.fontSize": 15.5,
+  "window.zoomLevel": 1.8,
+  "editor.fontSize": 17,
   "editor.tabSize": 2,
   "editor.cursorBlinking": "solid",
   "editor.glyphMargin": false,
@@ -13,11 +13,7 @@
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "bottom",
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "none",
   "workbench.editor.tabSizing": "shrink",
@@ -28,19 +24,8 @@
   "editor.renderControlCharacters": false,
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
-  "json.schemas": [],
   "workbench.productIconTheme": "fluent-icons",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell Custom": {
-      "source": "PowerShell",
-      "args": ["-nologo"]
-    }
-  },
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/node_modules/**": true
-  },
-  "terminal.integrated.fontFamily": "'CaskaydiaCove NF'",
+  "terminal.integrated.fontFamily": "'Fira Code', Consolas, sans-serif",
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -48,10 +33,16 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code, 'Consolas', monospace",
   "editor.inlineSuggest.enabled": true,
   "prettier.endOfLine": "auto",
-  "workbench.colorTheme": "Field Lights",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -61,5 +52,7 @@
   "telemetry.telemetryLevel": "off",
   "vim.showmodename": false,
   "vim.statusBarColorControl": false,
-  "workbench.iconTheme": "field-lights"
+  "editor.guides.indentation": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
