@@ -43,12 +43,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false
-  },
   "telemetry.telemetryLevel": "off",
   "vim.showmodename": false,
   "vim.statusBarColorControl": false,
